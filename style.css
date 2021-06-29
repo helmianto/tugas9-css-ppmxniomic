@@ -1,0 +1,21 @@
+body{
+    text-align: right;
+    background-image: url('slider2.jpg');
+    background-size: cover;
+}
+
+div{
+    display: inline-block;
+    background-color: white;
+    width: 800px;
+    margin-right: 10px;
+}
+
+div > div {
+    padding: 10px;
+}
+
+img {
+    position: fixed;
+    z-index: -1;
+}
